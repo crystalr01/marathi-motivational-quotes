@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Motivational Quotes English</string>
+    <string name="start">Start</string>
+    <string name="download_our_other_apps">Download Our Other Apps</string>
+
+    <string name="bannerAD">ca-app-pub-6972616661119579/7146574969</string>
+    <string name="icici">Open your free ICIC Demate account and\nget 750 RS per Refer!</string>
+    <string name="upstox">Just open your free account and\nget 1200 RS per Refer!</string>
+    <string name="qureka">Qureka : Solve GK Quize and Earn Money</string>
+    <string name="admin">Motivation Quote</string>
+    <string name="date">Date :</string>
+    <string name="date1">date</string>
+    <string name="time">Time :</string>
+    <string name="time1">time</string>
+    <string name="news_text">Caption</string>
+    <string name="read_more">Read Caption...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

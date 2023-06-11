@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item android:id="@+id/shareApp"
+       android:title="Share this App"/>
+    <item android:id="@+id/rateApp"
+        android:title="Rate this App"/>
+    <item android:id="@+id/follow"
+        android:title="Follow me on Insta"/>
+</menu>

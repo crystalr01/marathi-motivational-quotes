@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".QuotesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/all_quotes"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#dac9e1"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="All Quotes"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/vivekanand_quotes"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#d3ffce"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Vivekanand"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kalam_quotes"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#faebd7"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Abdul Kalam"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bussiness_quotes"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#b0e0e6"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Business"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ambedkar"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#c6e2ff"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Dr.B.Ambedkar"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/maharaj"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#faebd7"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Ch.Shivaji Maharaj"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/festival"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#b0e0e6"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cagliostro"
+                android:gravity="center"
+                android:text="Festival &amp; Event"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/text_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="3dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#dac9e1"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Text Quotes"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/cagliostro"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/earn_money"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="3dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#faebd7"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Earn Money"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/cagliostro"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/speacial"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="3dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#d3ffce"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Post Advertise"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/cagliostro"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
